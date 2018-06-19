@@ -1,0 +1,10 @@
+[package]
+name = "rustffitest"
+version = "0.1.0"
+authors = ["Ceyhun Can ULKER <ceyhun.ulker@sony.com>"]
+
+[lib]
+name = "rustffitest"
+crate-type = ["dylib"]
+
+[dependencies]
